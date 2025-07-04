@@ -1,0 +1,259 @@
+* {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #202124;
+}
+body{
+    background-color: #c0c5cb;
+}
+h1,
+h2,
+h3,
+input,
+button {
+    font-family: 'Press Start 2P', system-ui;
+}
+
+#root {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 14px;
+    background: #eff6ff;
+    gap: 14px;
+    padding:0px;
+    overflow: hidden;
+}
+
+header {
+    display: flex;
+    align-items: stretch;
+}
+
+header,
+.main {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    gap: 14px;
+}
+
+header input {
+    flex: 1;
+    border-radius: 14px;
+    outline: none;
+    width: 100%;
+}
+
+header button {
+    border-radius: 14px;
+    background: transparent;
+    transition-duration: 200ms;
+    cursor: pointer;
+}
+
+header button:hover {
+    opacity: 0.7;
+}
+
+header button,
+header input {
+    padding: 14px 18px;
+    border: none;
+    outline: none;
+    background: white;
+}
+
+p {
+    font-size: 0.9em;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.todoItem {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 14px;
+    border-radius: 14px;
+    background: white;
+}
+
+.todoItem p {
+    flex: 1;
+}
+
+.actionsContainer {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.actionsContainer button {
+    transition-duration: 200ms;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.actionsContainer button:hover {
+    opacity: 0.7;
+}
+
+
+
+@media (min-width: 640px) {
+
+    header button,
+    header input {
+        font-size: 1.2em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+}
+.listItem{
+    transform : scale(1);
+    transition: transform 0.3s ease-out;
+}
+
+.listItem:hover{
+    transform : scale(1.10);
+    background-color: darkgray;
+}
+#cv{
+    width: 48%;
+    button{
+        margin:5px;
+        border: none;
+        background: inherit;
+        cursor: pointer;
+        background: url("../public/approved.png "), no-repeat;
+        background-size: cover;
+        background-position: center;
+        width:30px;
+        height:30px;
+    }
+    button::after {
+        content: "";
+        display: none;
+        margin-left: 10px;
+        color: white;
+    }
+
+}
+#linkedIn{
+    cursor: pointer;
+    margin:5px;
+    display: block;
+    background: url("../public/linkedin.svg"), no-repeat;
+    background-size: cover;
+    background-position: center;
+    width:30px;
+    height:30px;
+}
+#gitHub{
+    cursor: pointer;
+    margin:5px;
+    display: block;
+    background: url("../public/github.svg"), no-repeat;
+    background-size: cover;
+    background-position: center;
+    width:30px;
+    height:30px;
+}
+#instagram{
+    cursor: pointer;
+    margin:5px;
+    display: block;
+    background: url("../public/instagram.svg"), no-repeat;
+    background-size: cover;
+    background-position: center;
+    width:30px;
+    height:30px;
+}
+.navigation{
+    float:right;
+}
+#prva{
+    border-bottom: 1px solid darkgray;
+}
+.cards2{
+    li::before{
+            content: "";
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            background-image: url('../public/check.png');
+            background-size: cover;
+            margin-right: 10px;
+    }
+}
+
+#root  {
+    background-color: #c0c5cb;
+
+}
+
+#bannerContent{
+        background: #c0c7cb;
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 20px;
+        padding: 60px 40px;
+        text-align: center;
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+        min-width: 600px;
+        max-width: 90%;
+        margin-left:200px;
+}
+
+#typewriterContainer{
+    font-size: 3rem;
+    font-weight: 700;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+#subtitle{
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 300;
+}
+@media (max-width: 480px) and (orientation: portrait) {
+    #bannerContent {
+        min-width: 10%;
+        max-width: 80%;
+        padding: 30px 20px;
+        margin-left:0px;
+    }
+
+    #typewriterContainer {
+        font-size: 1.5rem;
+        gap: 8px;
+        min-height: 60px;
+        min-width: 50%;
+    }
+
+    #subtitle {
+        font-size: 0.9rem;
+        margin-top: 15px;
+    }
+}
+#sve{
+    width: 100%;
+}
