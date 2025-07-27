@@ -1,6 +1,11 @@
 ## Overview
 
-This is my personal portfolio website built with React. It showcases information about me, including my education, projects, awards, and more. I'm proud to have built this portfolio from scratch as a way to present my work and accomplishments.
+This is my personal portfolio website, built with React. It showcases information about me, including my education, projects, awards, and more.
+
+I built this portfolio from scratch to present my work and accomplishments in a professional and accessible way.
+
+Feel free to check it out here:
+https://alanmusli.github.io/MyPersonalPortfolio
 
 ## Features
 ### 📱 Responsive Design
