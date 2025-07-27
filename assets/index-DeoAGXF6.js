@@ -58,4 +58,4 @@ Please change the parent <Route path="${B}"> to <Route path="${B==="/"?"*":`${B}
                     0% { opacity: 0; transform: translateY(20px); }
                     100% { opacity: 1; transform: translateY(0); }
                 }
-                `})]})}function Ev(){return N.jsx(N.Fragment,{children:N.jsx(uv,{children:N.jsxs(jy,{children:[N.jsx(Un,{path:"/",element:N.jsx(pv,{})}),N.jsx(Un,{path:"/projects",element:N.jsx(Sv,{})}),N.jsx(Un,{path:"/education",element:N.jsx(bv,{})}),N.jsx(Un,{path:"/awards/",element:N.jsx(xv,{})})]})})})}Qm.createRoot(document.getElementById("root")).render(N.jsx(M.StrictMode,{children:N.jsx(Ev,{})}));
+                `})]})}function Ev(){return N.jsx(N.Fragment,{children:N.jsx(uv,{basename:"/MyPersonalPortfolio",children:N.jsxs(jy,{children:[N.jsx(Un,{path:"/",element:N.jsx(pv,{})}),N.jsx(Un,{path:"/projects",element:N.jsx(Sv,{})}),N.jsx(Un,{path:"/education",element:N.jsx(bv,{})}),N.jsx(Un,{path:"/awards/",element:N.jsx(xv,{})})]})})})}Qm.createRoot(document.getElementById("root")).render(N.jsx(M.StrictMode,{children:N.jsx(Ev,{})}));
